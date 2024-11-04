@@ -4,3 +4,10 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+api = { version = "0.1.0", path = "../api" }
+clap = { version = "4.5.20", features = ["derive"] }
+local-ip-address = "0.6.3"
+reqwest = { version = "0.12.9", features = ["json"] }
+tokio = { version = "1.41.0", features = ["full"] }
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
