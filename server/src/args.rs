@@ -10,4 +10,8 @@ pub struct Args {
     /// PowerDNS zone name
     #[clap(long)]
     pub zone: String,
+
+    /// Path to the file containing hostname-key mappings
+    #[clap(long)]
+    pub hosts_file: String,
 }

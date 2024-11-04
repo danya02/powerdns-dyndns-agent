@@ -4,4 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+ecdsa = "0.16.9"
+p256 = "0.13.2"
 serde = { version = "1.0.214", features = ["derive"] }
+serde_with = { version = "3.11.0", features = ["base64"] }

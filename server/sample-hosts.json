@@ -1,0 +1,10 @@
+{
+    "hosts": [
+        {
+            "verifying_key": "BEoQegYsRlsh5jiaIOVpNjMTAl2Va/Mc7i/VcnLr/6VY6WkgkRpcb98mGONSBoJc7/ki7+49lbcE07MA+Zuma9c=",
+            "allowed_hosts": [
+                "test.uni.rudn-lab.ru"
+            ]
+        }
+    ]
+}
